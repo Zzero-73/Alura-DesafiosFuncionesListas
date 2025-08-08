@@ -32,7 +32,7 @@ function Nombre(){
 
 function NumeroDoble(){
     let valor=parseInt(prompt('Ingrese un número, por favor 😊​👉​'));
-    console.log(valor*2);
+    console.log(`Su número ingresado es: ${valor} su valor doble es ${valor*2}`);
 }
 
 //#4
@@ -40,10 +40,10 @@ function NumeroMayor(){
     let valor1=parseInt(prompt('Ingrese un 1er número, por favor 😊​✏️​​'));
     let valor2=parseInt(prompt('Ingrese un 2do número, por favor 😊​✏️​​'));
     if (valor1 > valor2){
-        console.log('El numero mayor es: '+ valor1);
+        console.log(`Ingresados ${valor1} y ${valor2} // el mayor es: ${valor1}`);
     }
     else if(valor2 > valor1) {
-        console.log('El numero mayor es: '+ valor2);
+        console.log(`Ingresados ${valor1} y ${valor2} // el mayor es: ${valor1}`);
     }else{
         console.log('Ambos números son iguales: ' +valor1 +' = ' + valor2);
     }
@@ -52,15 +52,17 @@ function NumeroMayor(){
 //5
 function NumeroMultiplicado(){
     let valor=parseInt(prompt('Ingrese un número, por favor 🔢​'));
-    console.log(valor*valor);
+    console.log(`Ingresaste ${valor} y su valor multiplicado es: ${valor*valor}`);
 }
 
 //6
 function MasaCorporal(){
-    let altura=prompt('Ingrese un la altura, por favor 🤯​');
+    let Altura=prompt('Ingrese un la altura, por favor 🤯​');
     let Peso=prompt('Ingrese un el peso, de la persona ​🤯');
-    Resultado = Peso / (altura * altura);
-    console.log('La Masa Corporal de la persona es: ' + Resultado);
+    Resultado = Peso / (Altura * Altura);
+    console.log('Altura ingresada: ' + Altura);
+    console.log('Peso ingresado: ' + Peso);
+    console.log('La Masa Corporal es: ' + Resultado);
 }
 
 //6
